@@ -1,0 +1,23 @@
+@import 'base.css';
+@import 'skeleton.css';
+@import 'layout.css';
+.title{
+  color:black;
+
+  font-weight:bold;
+  font-size:150px;
+  line-height: 150px;
+  border-bottom:solid 1px black;
+  padding:20px 45px;
+  margin:0px;
+
+
+}
+.title>span{
+  transition:color 0.5s ease;
+}
+
+.title>span:hover{
+  color:red;
+  transition:color 0.5s ease;
+}

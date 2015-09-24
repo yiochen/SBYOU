@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>#SBYou</title>
+	<meta name="description" content="See what's hot in Stony Brook">
+	<meta name="author" content="yiou">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/main.css">
+	<link rel="stylesheet" href="stylesheets/gallery.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+
+  <div class="container main">
+    <div class="header">
+      <a href="index.html"><h1 class="title">#SB<span>YOU</span></h1></a>
+      <h4>_fashion</h4>
+    </div>
+    <div class="row" id="content">
+      <div class="ten columns imgs">
+        <img onclick="popWindow(0)"  class="image" src="images/profiles/Lei.JPG">
+				<img class="image" src="images/profiles/Fabrizia.JPG">
+				<img class="image" src="images/profiles/Haoran.JPG">
+				<img class="image" src="images/profiles/Courtney.JPG">
+				<img class="image" src="images/profiles/Nanhee.JPG">
+				<img class="image" src="images/profiles/Oliver.JPG">
+				<img class="image" src="images/profiles/Ranren.JPG">
+
+      </div>
+      <div class="two columns">
+        <h4 class="menu_item">_music</h4>
+        <h4 class="menu_item">_food</h4>
+        <h4 class="menu_item">_random</h4>
+        <h4 class="menu_item">_contact</h4>
+      </div>
+    </div>
+	</div><!-- container -->
+	<div id="overlay" onclick="closeWindow()">
+		<div id="pop">
+			<div id="pPhotos">
+				<img class="pMainPhoto" src="images/profiles/Lei.JPG">
+				<div id="pSelect">
+					<img class="pSelectPhoto" src="images/other/hm.jpg">
+					<img class="pSelectPhoto" src="images/other/kwiss.png">
+					<img class="pSelectPhoto" src="images/other/pandora.jpg">
+					<img class="pSelectPhoto" src="images/other/sushi.jpg">
+				</div>
+			</div>
+			<div id="pDesc">
+					<h3>Lei Hao</h3>
+					<div class="pContent">
+						<p><span class="pItem">major</span>electrical engineering</p>
+						<p><span class="pItem">music</span>maps - maroon 5</p>
+						<p><span class="pItem">food</span>sushi</p>
+						<p><span class="pItem">random</span>I’m graduating</p>
+
+						<p><span class="pItem">cloth</span>h&m</p>
+						<p><span class="pItem">shoes</span>k*wiss</p>
+						<p><span class="pItem">bracelet</span>pandora</p>
+
+					</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		function popWindow(num){
+			document.getElementById('overlay').style.display="flex";
+		}
+		function closeWindow(){
+			document.getElementById('overlay').style.display="none";
+		}
+	</script>
+<!-- End Document
+================================================== -->
+</body>
+</html>
