@@ -1,9 +1,6 @@
 .main {
   height: 100vh; }
 
-a{
-  text-decoration: none;
-}
 .title {
   border: none;
   font-size: 50px;
@@ -25,7 +22,7 @@ a{
 
 .image {
   width: 25%;
-  height: 135px;
+  height: auto;
   letter-spacing: 0;
   word-spacing: 0;
   object-fit: cover; }
